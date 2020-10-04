@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import SignIn from './SignIn';
-import SignUp from './SignUp';
+import SignIn from './components/Header/login/SignIn';
+import SignUp from './components/Header/login/SignUp';
 import Home from './Home';
 
 const App: React.FunctionComponent = () => {
